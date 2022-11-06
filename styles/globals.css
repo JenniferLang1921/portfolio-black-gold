@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+
+html {
+  scroll-behavior: smooth;
+  /*font-family: 'Raleway', sans-serif; */
+  font-weight: 500;
+  color: #000;
+}
+
+@layer base {
+  body {
+    @apply bg-[#000000] text-[#c5aa73] tracking-wide
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl font-[Raleway]
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl
+  }
+  p {
+    @apply font-[Roboto]
+  }
+  
+  li {
+    @apply cursor-pointer
+  }
+
+  button {
+    @apply shadow-xl border-[] rounded-xl uppercase bg-gradient-to-r from-[#d3c4a6] to-[#c5aa73f] text-black
+  }
+}
