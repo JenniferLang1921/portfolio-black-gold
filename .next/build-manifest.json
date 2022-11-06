@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/blogproject": [
+    "/vitaedigitalstudio": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/blogproject.js"
+      "static/chunks/pages/vitaedigitalstudio.js"
     ]
   },
   "ampFirstPages": []

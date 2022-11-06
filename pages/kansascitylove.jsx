@@ -18,7 +18,7 @@ const kansascitylove = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Kansas City Love</h2>
-          <h3>React.js / Tailwind.css / AWS Amplify</h3>
+          <h3>Next.js / Tailwind.css </h3>
         </div>
       </div>
 

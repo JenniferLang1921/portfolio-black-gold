@@ -6,6 +6,7 @@ import KansasCityLoveImg from "../public/assets/projects/KansasCityLove.png";
 import WebDevNewsImg from "../public/assets/projects/WebDevNews.png";
 import DadJokesImg from "../public/assets/projects/DadJokes.png";
 import BlogImg from "../public/assets/projects/Blog.png";
+import VitaeDigitalStudio from "../public/assets/projects/vitaedigitalstudio.png";
 
 const Projects = () => {
   return (
@@ -43,6 +44,14 @@ const Projects = () => {
             tech="React.js"
             projectUrl="/blogproject"
           />
+          <div className="border-white border-2 rounded-xl">
+            <ProjectItem
+              title="Vitae Digital Studio"
+              backgroundImg={VitaeDigitalStudio}
+              tech="Wordpress"
+              projectUrl="/vitaedigitalstudio"
+            />
+          </div>
         </div>
       </div>
     </div>
