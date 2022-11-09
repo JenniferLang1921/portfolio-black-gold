@@ -21,7 +21,7 @@ const Skills = () => {
         </p>
         <h2 className="py-4">What I Can Do</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center ">
               <div className="m-auto">
                 <Image src={Html} alt="/" width="64px" height="64px" />
@@ -32,7 +32,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Css} alt="/" width="64px" height="64px" />
@@ -43,7 +43,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Javascript} alt="/" width="64px" height="64px" />
@@ -54,7 +54,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={ReactImg} alt="/" width="64px" height="64px" />
@@ -65,7 +65,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Tailwind} alt="/" width="64px" height="64px" />
@@ -76,7 +76,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Next} alt="/" width="64px" height="64px" />
@@ -87,10 +87,16 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Node} alt="/" width="64px" height="64px" />
+                <Image
+                  src={Node}
+                  alt="/"
+                  width="64px"
+                  height="64px"
+                  className="bg-blend-darken"
+                />
               </div>
               <div className="flex flex-col items-center justify-center text-black">
                 <h3>Node</h3>
@@ -98,7 +104,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Mysql} alt="/" width="64px" height="64px" />
@@ -109,7 +115,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Wordpress} alt="/" width="64px" height="64px" />
@@ -120,7 +126,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Drupal} alt="/" width="64px" height="64px" />
@@ -131,7 +137,7 @@ const Skills = () => {
             </div>
           </div>
 
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-gray-300 border-[#c5aa73] border-2">
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 bg-[#c5aa73] border-[#c5aa73] border-2">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={Github} alt="/" width="64px" height="64px" />
