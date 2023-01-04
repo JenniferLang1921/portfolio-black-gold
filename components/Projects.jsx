@@ -6,7 +6,7 @@ import KansasCityLoveImg from "../public/assets/projects/KansasCityLove.png";
 import WebDevNewsImg from "../public/assets/projects/WebDevNews.png";
 import DadJokesImg from "../public/assets/projects/DadJokes.png";
 import BlogImg from "../public/assets/projects/Blog.png";
-import VitaeDigitalStudio from "../public/assets/projects/vitaedigitalstudio.png";
+import JenniferElliottWebsites from "../public/assets/projects/JenniferElliottWebsites.png";
 
 const Projects = () => {
   return (
@@ -46,8 +46,8 @@ const Projects = () => {
           />
           <div className="border-white border-2 rounded-xl">
             <ProjectItem
-              title="Vitae Digital Studio"
-              backgroundImg={VitaeDigitalStudio}
+              title="Jennifer Elliott Websites"
+              backgroundImg={JenniferElliottWebsites}
               tech="Wordpress"
               projectUrl="/vitaedigitalstudio"
             />

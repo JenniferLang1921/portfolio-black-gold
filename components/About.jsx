@@ -15,7 +15,7 @@ const About = () => {
         <h1 className="py-1 md:py-4 text-[#c5aa73] text-2xl md:text-4xl">
           Hi, I'm{" "}
           <span className="text-gray-300 text-2xl md:text-4xl">
-            Jennifer Lang
+            Jennifer Elliott
           </span>
         </h1>
         <h2 className="py-1 md:py-4 text-[#c5aa73] tex md:text-xl">
@@ -43,10 +43,11 @@ const About = () => {
               </p>
               <p className="mt-4">
                 I earned my Full-Stack Web Development Coding Bootcamp
-                Certificate at the University of Kansas in 2018. Since then, I
-                have been working as a front-end drupal and full-stack wordpress
+                Certificate at the University of Kansas in 2018. Then, I spent 4
+                years working as a front-end drupal and full-stack wordpress
                 developer for Agile Technology Solutions at the University of
-                Kansas. I am very interested in Next.js.
+                Kansas. I am currently freelancing. Next.js is my favorite
+                front-end software.
               </p>
               <Link href="/#projects">
                 <p className="py-2 text-gray-300 underline cursor-pointer">

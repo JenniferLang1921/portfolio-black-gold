@@ -1,5 +1,5 @@
 import React from "react";
-import VitaeDigitalStudio from "../public/assets/projects/vitaedigitalstudio.png";
+import VitaeDigitalStudio from "../public/assets/projects/JenniferElliottWebsites.png";
 import Image from "next/image";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
@@ -17,7 +17,7 @@ const vitaedigitalstudio = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Vitae Digital Studio</h2>
+          <h2 className="py-2">Jennifer Elliott Websites</h2>
           <h3>Wordpress / Divi Theme </h3>
         </div>
       </div>
@@ -37,16 +37,12 @@ const vitaedigitalstudio = () => {
             design each of them.
           </p>
           <p>
-            I would like to personalize the homepage a little more in the
-            future. I go back and forth between marketing myself as a freelancer
-            or as an agency. There is no right answer. I have been learning
-            about affiliate marketing, google adsense, and how to be consistent
-            with marketing. This week I am attending a digital marketing
-            conference in Kansas City that I am excited about (11/8/2022), I
-            will probably write about it.
+            I have been learning about affiliate marketing, google adsense, and
+            social media marketing. This week I am attending a digital marketing
+            conference in Kansas City that I am excited about (11/8/2022).
           </p>
           <a
-            href="https://vitaedigitalstudio.com"
+            href="https://jenniferelliottwebsites.com"
             target="_blank"
             rel="noreferrer"
           >
@@ -69,7 +65,7 @@ const vitaedigitalstudio = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Mailchimp
+                Campaign Monitor
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
