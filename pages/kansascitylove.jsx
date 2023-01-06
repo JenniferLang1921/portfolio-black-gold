@@ -27,7 +27,7 @@ const kansascitylove = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app started out in reaact.js, then I moved it to next.js, and
+            This app started out in react.js, then I moved it to next.js, and
             finally I moved it to Wordpress because I decided I would rather
             spend my time adding content instead of building functions for it. I
             love the community that is growing on instagram around Kansas City
