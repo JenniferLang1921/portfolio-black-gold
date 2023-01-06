@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/vitaedigitalstudio": [
+    "/kansascitylove": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/vitaedigitalstudio.js"
+      "static/chunks/pages/kansascitylove.js"
     ]
   },
   "ampFirstPages": []

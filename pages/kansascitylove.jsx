@@ -18,7 +18,7 @@ const kansascitylove = () => {
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
           <h2 className="py-2">Kansas City Love</h2>
-          <h3>Next.js / Tailwind.css </h3>
+          <h3>Wordpress </h3>
         </div>
       </div>
 
@@ -27,24 +27,12 @@ const kansascitylove = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using Next.js and the Instagram API. I am
-            currently working on this project and it is not finished. Users will
-            be able to find events to go to in Kansas City and also pick
-            pre-planned outings from suggestions based on what kind of
-            experience they want to have. It will be different from a typical
-            event planner because I want to put an experience together (lunch at
-            xyz cafe, visit the zoo that is near it, finish the day with ice
-            cream from abc shoppe) This is a passion project of mine that I am
-            having a lot of fun with. I started it on create-react-app but am
-            migrating it to next.js so it will have better SEO. I would like to
-            use a database with it someday, but first I am building it with an
-            internal api.
-          </p>
-          <p>
-            I have been doing a lot of marketing on instagram with Kansas City
-            Love and it is fun watching the audience grow. I wanted to build
-            something that combined my passion for exploring with my passion for
-            coding and marketing.
+            This app started out in reaact.js, then I moved it to next.js, and
+            finally I moved it to Wordpress because I decided I would rather
+            spend my time adding content instead of building functions for it. I
+            love the community that is growing on instagram around Kansas City
+            Love and I am looking forward to monetizing this website in the
+            future.
           </p>
           <a
             href="https://www.thingstodoinkc.com/"
@@ -71,23 +59,11 @@ const kansascitylove = () => {
             <div>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                React
+                Wordpress
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Tailwind
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Javascript
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                Internal API
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                AWS Amplify
+                Campaign Monitor
               </p>
             </div>
           </div>

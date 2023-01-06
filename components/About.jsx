@@ -27,8 +27,8 @@ const About = () => {
             <Image
               src={AboutImg}
               alt="/"
-              width="800"
-              height="800
+              width="500"
+              height="500
             "
             />
           </div>

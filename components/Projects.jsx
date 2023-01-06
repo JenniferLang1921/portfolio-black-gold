@@ -20,7 +20,7 @@ const Projects = () => {
           <ProjectItem
             title="KansasCityLove"
             backgroundImg={KansasCityLoveImg}
-            tech="React.js"
+            tech="Wordpress"
             projectUrl="/kansascitylove"
           />
 
